@@ -1,0 +1,24 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_ghost_Login_0__0_default.png",
+        "test": "..\\bitmaps_test\\20240510-103821\\backstop_ghost_Login_0__0_default.png",
+        "selector": "",
+        "fileName": "backstop_ghost_Login_0__0_default.png",
+        "label": "Login",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://ec2-54-91-89-99.compute-1.amazonaws.com:2368/ghost/",
+        "referenceUrl": "http://ec2-54-158-234-189.compute-1.amazonaws.com:2368/ghost",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Waiting for selector `[test-data-button='sign-in']` failed: Waiting failed: 30000ms exceeded",
+        "error": "Reference file not found D:\\PERSONAL\\MISO\\pruebas-regresion\\backstop-ghost\\backstop_data\\bitmaps_reference\\backstop_ghost_Login_0__0_default.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_ghost"
+}
